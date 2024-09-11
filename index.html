@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Log In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form__container">
+        <div class="log-in__container" id="log-in__container">
+            <h1 class="title">Log In</h1>
+            <div class="input__container">
+                <label for="email">Email</label>
+                <input type="text" name="email" placeholder="Enter email">
+                <label for="password">Password</label>
+                <input type="text" name="password" placeholder="Enter password">
+            </div>
+            <div class="links__container">
+                <a href="#">Forgot Password?</a>
+                <button class="next-btn">Next <i class="fas fa-angle-right"></i></button>
+            </div>
+            <span class="line"></span>
+            <span class="log-in__text">Or Log In with</span>
+            <div class="social__container">
+                <button class="social"><i class="fab fa-facebook-f" style="color: rgb(54, 54, 191);"></i></button>
+                <button class="social"><i class="fab fa-google" style="color: rgb(216, 37, 37);"></i></button>
+            </div>
+            <span class="sign-up">Don't have an account yet? <a id="sign-up__form__toggler">Sign up</a></span>
+        </div>
+        <div class="banner__placeholder" id="banner">
+            <img src="/img/Goose.jpg" alt="goose" class="banner">
+        </div>
+        <div class="sign-up__container" id="sign-up__container">
+            <h1 class="title">Sign Up</h1>
+            <div class="input__container">
+               <label for="email">Email</label>
+               <input type="text" name="email" placeholder="Enter email">
+               <label for="password">Password</label>
+               <input type="text" name="password" placeholder="Create password">
+            </div>
+            <div class="links__container">
+                <button class="next-btn">Next <i class="fas fa-angle-right"></i></button>
+            </div>
+            <span class="line"></span>
+            <span class="log-in__text">Or Sign Up with</span>
+            <div class="social__container">
+                <button class="social"><i class="fab fa-facebook-f" style="color: rgb(54, 54, 191);"></i></button>
+                <button class="social"><i class="fab fa-google" style="color: rgb(216, 37, 37);"></i></button>
+            </div>
+            <span class="log-in">Already have an account? <a id="log-in__form__toggler" >Log in</a></span>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
